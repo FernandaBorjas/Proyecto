@@ -32,34 +32,22 @@
             </div>
         </nav>
     </div>
-    <titulo1>Pedido</titulo1>
-
-    <form id="pedido">
-    <p>Nombre:<input type="text" id="nombre" name="nombre" size="30"></p>
-    <p>Apellidos: <input type="text" id="apellido" size="30"></p>
-    <p>Telefono:<input type="text" id="telefono" name="telefono" size="30"></p>
-    <p>Direccion:<input type="text" id="direccion" name="direccion" size="30"></p>
-    <p>Colonia:<input type="text" id="colonia" name="colonia" size="30"></p>
-
-    <input type="submit" value="Enviar">
-    <input type="reset" value="Borrar">
-    
-    </form>
+    <h1>Pedido realizado</h1>
+    <h2>Con exito</h2>
+    <ul>
+        <li><strong>Nombre:</strong><span id="nombre"></span></li>
+        <li><strong>Apellido:</strong><span id="nombre"></span></li>
+        <li><strong>Telefono:</strong><span id="nombre"></span></li>
+        <li><strong>Direccion:</strong><span id="nombre"></span></li>
+        <li><strong>Colonia:</strong><span id="nombre"></span></li>
+    </ul>
     <script>
-        const form=document.getElementById("pedido");
-        form.addEventListener("submit",funtion event){
-            event.preventDefault();
-            const formData=new FormData(form);
-            const orden={
-                nombre:formData.get("nombre"),
-                apellido:formData.get("apellido"),
-                telefono:formData.get("telefono"),
-                direccion:formData.get("direccion"),
-                colonia:formData.get("colonia"),
-            };
-            localStorage.setItem("orden",JSON.stringify(orden));
-            window.location.href="pedidorealizado.html";
-        }
+        const.orden=JSON.parse(localStorage.getItem{"orden"})
+        document.getElementById("nombre").textContent=orden.nombre;
+        document.getElementById("apellido").textContent=orden.apellido;
+        document.getElementById("telefono").textContent=orden.telefono;
+        document.getElementById("direccion").textContent=orden.direccion;
+        document.getElementById("colonia").textContent=orden.colonia;
     </script>
 </body>
 </html>
