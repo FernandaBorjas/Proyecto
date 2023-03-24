@@ -1,0 +1,80 @@
+{"Menu:":[
+    {
+        "Nombre:":"Pastel de chocolate",
+        "Descripción:": "Harina,huevos,leche,chocolate,sal.azucar,mantequilla",
+        "Precio:": "$300",
+        "Imagen:": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJr5kG8jE2wwuWOdCnykCl3Q8lwz21JPqGdw&usqp=CAU"
+    },
+
+    {
+        "Nombre:":"Pastel de fresa",
+        "Descripción:": "Harina,huevos,leche,fresa,sal.azucar,mantequilla",
+        "Precio:": "$300",
+        "Imagen:": "xd"
+    },
+
+    {
+        "Nombre:":"Pastel de vainilla",
+        "Descripción:": "Harina,huevos,leche,extracto de vainilla,sal.azucar,mantequilla",
+        "Precio:": "$300",
+        "Imagen:": "xd"
+    },
+
+     {
+        "Nombre:": "Gelatina de cafe",
+        "Descripción:": "Gelatina,cafe,crema batida,vainilla",
+        "Precio:": "$80",
+        "Imagen:": "xd"
+    },
+
+    {
+        "Nombre:": "Gelatina de fresa",
+        "Descripción:": "Gelatina,fresa,crema batida",
+        "Precio:": "$80",
+        "Imagen:": "xd"
+    },
+    
+    {
+        "Nombre:": "Gelatina de limon",
+        "Descripción:": "Gelatina de limon,limon rayado",
+        "Precio:": "$85",
+        "Imagen:": "xd"
+    },
+
+    {
+        "Nombre:": "Batido de chocolate",
+        "Descripción:": "Leche,chocolate,chispas de chocolate,cerezas,crema batida,hielo",
+        "Precio:": "$50",
+        "Imagen:": "xd"
+    },
+
+    {
+        "Nombre:": "Batido de fresa",
+        "Descripción:": "Leche,fresa,cerezas,crema batida,hielo",
+        "Precio:": "$50",
+        "Imagen:": "xd"
+    },
+
+    {
+        "Nombre:": "Batido de vainilla",
+        "Descripción:": "Leche,vainilla,chispas de chocolate,cerezas,crema batida,hielo",
+        "Precio:": "$50",
+        "Imagen:": "xd"
+    },
+
+    {
+        "Nombre:": "Refresco de uva",
+        "Descripción:": "Agua,gas,Azucares,saborizante de uva",
+        "Precio:": "$50",
+        "Imagen:": "xd"
+    },
+
+    {
+        "Nombre:": "Refresco de naranja",
+        "Descripción:": "Agua,gas,Azucares,saborizante de naranja",
+        "Precio:": "$50",
+        "Imagen:": "xd"
+    }
+   
+]
+}
